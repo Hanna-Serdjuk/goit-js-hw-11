@@ -1,77 +1,16 @@
-// .header {
-//   position: fixed;
-//   width: 100%;
-//   max-width: inherit;
-//   /*margin-bottom: 30px;*/
-//   background-color: #4248a5;
-// }
-
-// .search-container {
-//   display: flex;
-//   justify-content: center;
-
-//   padding-top: 0;
-//   padding-bottom: 20px;
-//   text-align: center;
-// }
-
-// .search-form {
-//   display: flex;
-//   align-items: flex-end;
-// }
-
-// input {
-//   margin-top: 20px;
-//   margin-right: 10px;
-
-//   border-radius: 4px;
-//   border: none;
-
-//   width: 300px;
-//   height: 40px;
-//   outline: none;
-// }
-
-// .btns {
-//   width: 100px;
-//   height: 40px;
-
-//   padding: 0px;
-//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//   border-radius: 4px;
-//   border: none;
-//   background: #17c247;
-//   font-family: inherit;
-//   font-size: inherit;
-//   font-weight: 700;
-
-//   text-align: center;
-//   letter-spacing: 0.06em;
-//   cursor: pointer;
-//   color: white;
-// }
-
-// .btns:hover,
-// .btns:focus {
-//   background: #40923d;
-//   color: rgb(189, 167, 167);
-//   transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
-//   outline: none;
-// }
-
 .search-form {
   position: fixed;
+  z-index: 2;
   top: 0%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, 0%);
 
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
-  background-color: #b5cdee;
 
+  background-color: #b5cdee;
   width: 100%;
   height: 50px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
@@ -85,11 +24,6 @@ input {
   padding-right: 20px;
   width: 50%;
   height: 70%;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
-  font-size: 1.1em;
 
   color: #000000;
   background-color: #ffffff;
@@ -109,24 +43,20 @@ input:focus {
   border-color: #065d97;
 }
 
-button.search-btn {
+.search-btn {
   margin-left: 20px;
   min-width: 60px;
   height: 70%;
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
-  font-size: 0.9em;
-
+  font-size: 14px;
   background-color: #ffffff;
-  color: rgb(0, 0, 0);
+  color: #000000;
   border-color: #ffffff;
   border-radius: 10px;
   border-width: 1px;
   outline: none;
 }
 
-button.search-btn:hover {
+.search-btn:hover {
   border-color: #065d97;
 }

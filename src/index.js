@@ -67,13 +67,13 @@ async function onLoadMore() {
     Notify.info("We're sorry, but you've reached the end of search results.", {timeout: 3000});
 };
 
-// scroll
-const { height: cardHeight } = document.querySelector('.gallery')
-.firstElementChild.getBoundingClientRect();
+  // scroll
+  const { height: cardHeight } = document.querySelector('.gallery')
+  .firstElementChild.getBoundingClientRect();
 
-window.scrollBy({
-top: cardHeight * 2,
-behavior: 'smooth',
+  window.scrollBy({
+  top: cardHeight * 2,
+  behavior: 'smooth',
 });
 }
 
