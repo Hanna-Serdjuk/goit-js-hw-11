@@ -1,3 +1,47 @@
+# Image Search App
+
+A web application for searching and browsing images by keyword.
+
+# About the Project
+
+This project was developed as part of my web development training. It allows users to search for images using keywords and browse the results in a gallery.
+
+The project helped me practise JavaScript and work with dynamic content in a web application.
+
+# Features
+
+Search for images by keyword
+
+Display search results in a gallery
+
+Load more images using the Load more button
+
+# Technologies
+
+HTML5
+
+CSS3
+
+JavaScript
+
+# What I Learned
+
+Working with JavaScript
+
+Handling user input and search requests
+
+Displaying dynamic content
+
+Building interactive user interfaces
+
+Author
+
+Hanna Serdiuk
+
+
+
+Assignment Requirements
+
 # Parcel boilerplate
 
 ## Скрытые файлы
